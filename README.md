@@ -13,3 +13,7 @@ git checkout -- [文件] 丢弃工作区对该文件的修改
 git checkout -- [文件名] 可以放弃对该文件的删除
 
 对文件修改后，需要将文件从工作区提交到暂存区后才能成功上传到本地仓库
+
+git remote add origin https://github.com/GuoDaShunA/git-company.git 将本地仓库与远程仓库相关联
+
+git push origin master 将本地master分支的最新消息推送到github上
